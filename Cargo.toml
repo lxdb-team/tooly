@@ -1,9 +1,9 @@
 [package]
-name = "e04_message_builder"
+name = "tooly_bot"
 version = "0.1.0"
 authors = ["my name <my@email.address>"]
 edition = "2018"
 
 [dependencies]
-serenity = { path = "../../", default-features = false, features = ["client", "gateway", "rustls_backend", "model"] }
+serenity = "0.8.7"
 tokio = { version = "0.2", features = ["macros"] }
